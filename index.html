@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="this is a sample project in accio job to complete f1 module with responsive designing"
+    />
+    <title>Module-test</title>
+    <link rel="shortcut icon" href="download.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bg-body container nav-bar"
+        id="navbar-section"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Complex UI</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Section 1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Section 2</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Link
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link">Section 3</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div
+                class="w-100 d-flex justify-content-center align-items-center bg-dark"
+                style="height: 92vh"
+              >
+                <img src="car-img-1.jpg" alt="1st image" />
+              </div>
+              <div class="carousel-caption d-md-block">
+                <h5 class="text-light">First Slide Title</h5>
+                <p class="text-light">First Slide Description</p>
+                <button class="btn btn-primary text-light">
+                  Call to Action
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="w-100 d-flex justify-content-center align-items-center bg-dark"
+                style="height: 92vh"
+              >
+                <img src="car-img-2.jpg" alt="2nd image" />
+              </div>
+              <div class="carousel-caption d-md-block">
+                <h5 class="text-light">Second Slide Title</h5>
+                <p class="text-light">Second Slide Description</p>
+                <button class="btn btn-primary text-light">
+                  Call to Action
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="w-100 d-flex justify-content-center align-items-center bg-dark"
+                style="height: 92vh"
+              >
+                <img src="car-img-1.jpg" alt="3rd image" />
+              </div>
+              <div class="carousel-caption d-md-block">
+                <h5 class="text-light">Third Slide Title</h5>
+                <p class="text-light">Third Slide Description</p>
+                <button class="btn btn-primary text-light">
+                  Call to Action
+                </button>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section class="flex">
+        <div class="container flex-items">
+          <div class="container-fluid-1">
+            <img src="card-image.png" class="d-block w-100" alt="img-1" />
+            <p class="text-center para">
+              Lorem ipsum dolor sit amet consectetur.
+            </p>
+          </div>
+          <div class="container-fluid-1">
+            <img src="card-image.png" class="d-block w-100" alt="img-2" />
+            <p class="text-center para">
+              Lorem ipsum dolor sit amet consectetur.
+            </p>
+          </div>
+          <div class="container-fluid-1">
+            <img src="card-image.png" class="d-block w-100" alt="img-3" />
+            <p class="text-center para">
+              Lorem ipsum dolor sit amet consectetur.
+            </p>
+          </div>
+        </div>
+        <!-- <div class="container image-wrapper my-5 flex-sm-wrap flex-md-nowrap">
+          <div class="container">
+            <img src="card-image.png" class="d-block w-100" alt="img-1" />
+            <p class="text-center">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="container">
+            <img src="card-image.png" class="d-block w-100" alt="img-2" />
+            <p class="text-center">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="container">
+            <img src="card-image.png" class="d-block w-100" alt="img-3" />
+            <p class="text-center">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div> -->
+      </section>
+      <section class="grid">
+        <div class="grid-items container">
+          <div class="grid-items-1">
+            <div class="grid-items item-1">
+              <img src="igor-lypnytskyi-sPd834pZV1A-unsplash.jpg" alt="img-1" />
+            </div>
+            <div class="grid-items item-2">
+              <img src="igor-lypnytskyi-sPd834pZV1A-unsplash.jpg" alt="img-2" />
+            </div>
+            <div class="grid-items item-3">
+              <img src="igor-lypnytskyi-sPd834pZV1A-unsplash.jpg" alt="img-3" />
+            </div>
+            <div class="grid-items item-4">
+              <img src="car-img-1.jpg" alt="img-4" />
+            </div>
+            <div class="grid-items item-5">
+              <img src="igor-lypnytskyi-sPd834pZV1A-unsplash.jpg" alt="img-5" />
+            </div>
+            <div class="grid-items item-6">
+              <img src="igor-lypnytskyi-sPd834pZV1A-unsplash.jpg" alt="img-6" />
+            </div>
+            <div class="grid-items item-7">
+              <img src="car-img-1.jpg" alt="img-7" />
+            </div>
+          </div>
+          <div class="grid-items-2">
+            <div class="item-8">
+              <img src="nati-melnychuk-IK7E-Hhte_s-unsplash.jpg" alt="img-8" />
+            </div>
+            <div class="item-9 item-last">
+              <img src="neom-NPDnHmYsl6Y-unsplash.jpg" alt="img-9" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="cards">
+        <div class="card-items d-flex justify-content-between container gap-2">
+          <div class="card" style="width: 25rem; height: auto">
+            <img src="car-img-1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Call to Action</a>
+            </div>
+          </div>
+          <div class="card" style="width: 25rem; height: auto">
+            <img src="car-img-3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Call to Action</a>
+            </div>
+          </div>
+          <div class="card" style="width: 25rem; height: auto">
+            <img src="car-img-1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Call to Action</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <!-- <div class="container footer d-grid" class="row my-5">
+        <div class="footer1 d-flex flex-column col-lg-3 col-sm-6">
+          <h3>Useful Links</h3>
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+        <div class="footer1 d-flex flex-column col-lg-3 col-sm-6">
+          <h3>Useful Links</h3>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+          <a href="#">Link 6</a>
+        </div>
+        <div class="col-lg-3 d-flex flex-column col-sm-6">
+          <h3>Contact Us</h3>
+          <p>Email:example@example.com</p>
+
+          <p>Phone: +1 (555) 123-4567</p>
+        </div>
+      </div>
+      <div
+        class="footer-rights d-flex justify-content-between align-items-center container"
+      >
+        <div>2023 Complex UI. All Rights Reserverd</div>
+        <a class="btn btn-primary float-end" href="#navbar-section"
+          >Back to Top</a
+        >
+      </div> -->
+      <div class="container-fluid bg-light">
+        <div class="container mt-5 py-2">
+          <div class="row my-4">
+            <div class="col">
+              <h3>Useful Links</h3>
+              <div class="d-flex flex-column">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+            <div class="col">
+              <h3>More Links</h3>
+              <div class="d-flex flex-column">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+            <div class="col">
+              <h3>Contact Us</h3>
+              <p>Email: example@gmail.com</p>
+              <p>Phone Number: 987756788</p>
+            </div>
+          </div>
+          <div class="row d-flex align-items-center my-4">
+            <div class="col">
+              <span>&#169;</span> 2023 Complex UI. All rights reserved.
+            </div>
+            <div class="col">
+              <a class="btn btn-primary float-end" href="#navbar-section"
+                >Back to Top</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
